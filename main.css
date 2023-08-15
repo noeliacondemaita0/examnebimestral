@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+
+    padding: 0px;
+}
+.main-menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #a1a1a1;
+    box-sizing: border-box;
+    padding: 0px 1em 0px 1em;
+}
+.logo{
+    width: 10%;
+    height: auto;
+        
+}
+.menu-items{
+    display: flex;
+}
+@media screen and (main-width:600px) {
+    .menu-items{
+        display: none;
+    }
+  
+.menu-items li {
+ list-style: none;
+ margin-left: 1rem;
+} 
+.menu-items li a{
+text-decoration: none;
+color: aliceblue;
+} 
+}

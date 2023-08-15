@@ -1,0 +1,135 @@
+* {
+    tamaño de caja: caja de borde;
+    margen: 0;
+    relleno: 0;
+}
+html {
+    tamaño de fuente: 62,5%;
+    familia tipográfica: Arial, Helvetica, sans-serif;
+}
+a {
+    texto-decoración: ninguno;
+    cursor: puntero;
+}
+
+/* Encabezado */
+
+encabezamiento{
+    ancho: 100%;
+    altura: 60px;
+    tamaño de fuente: 1,4 rem;
+    pantalla: flexible;
+    justificar contenido: extremo flexible;
+}
+encabezado de navegación {
+    pantalla: flexible;
+}
+header nav .nav-right-section {
+    ancho: 250px;
+    altura: automático;
+    pantalla: flexible;
+    estilo de lista: ninguno;
+    justificar-contenido: centro;
+    alinear elementos: centro;
+}
+nav .nav-sección derecha a {
+    margen derecho: 12px;
+    de color negro;
+}
+
+/* Principal */
+
+principal {
+    margen superior: 150px;
+    alineación de texto: centro;
+}
+principal .principal-logo {
+    ancho: 280px;
+    margen: 0 automático;
+    margen inferior: 35px;
+}
+principal .entrada principal {
+    ancho: 530px;
+    margen: 0 automático;
+    margen inferior: 35px;
+}
+principal .contenedor-de-entrada-principal {
+    ancho: 525px;
+    borde-radio: 100px;
+    borde: 1px #dfe1e5 sólido;
+    pantalla: flexible;
+    justificar-contenido: centro;
+    alinear elementos: centro;
+}
+entrada principal .main-input {
+    ancho: 450px;
+    altura: 40px;
+    borde: ninguno;
+    esquema: ninguno;
+    tamaño de fuente: 1,8 rem;
+}
+main .main-input-container:hover {
+    caja-sombra: 0 1px 6px 0 #20212447;
+    color del borde: #dfe1e500;
+}
+principal .entrada principal .icono de búsqueda {
+    ancho: 24px;
+    altura: 24px;
+}
+principal .main-input .imagen-icono {
+    ancho: 24px;
+    altura: 24px;
+}
+principales .principales-botones {
+    ancho: 530px;
+    margen: 0 automático;
+    pantalla: flexible;
+    brecha: 16px;
+    justificar-contenido: centro;
+}
+botón principal .main-buttons {
+    altura: 36px;
+    color de fondo: #f2f2f2;
+    borde: ninguno;
+    tamaño de fuente: 1,4 rem;
+    color: #5f6368;
+    borde-radio: 5px;
+    relleno: 0 15px;
+}
+botón principal .main-buttons: hover {
+    borde: 1px sólido #dace0;
+    caja-sombra: 0 1px 1px rgba(0,0,0,.1);;
+    color: #202124;
+    color de fondo: #f8f9fa;
+}
+
+/* Pie de página */
+pie de página {
+    ancho: 100%;
+    altura: 50px;
+    posición: absoluta;
+    inferior: 0;
+    pantalla: rejilla;
+    cuadrícula-plantilla-columnas: 1fr 1fr;
+    alinear elementos: centro;
+    tamaño de fuente: 1,4 rem;
+    color de fondo: #f2f2f2;
+    borde superior: 1px sólido #e4e4e4;
+}
+pie de página ul {
+    margen: 16px;
+    estilo de lista: ninguno;
+    pantalla: flexible;
+    relleno-izquierda: 0px;
+}
+pie de página .footer-left {
+    justificar-contenido: inicio flexible;
+    brecha: 24px;
+}
+pie de página .footer-right {
+    justificar contenido: extremo flexible;
+    brecha: 24px;
+}
+pie de página ul li a {
+    color: #70757a;
+}
